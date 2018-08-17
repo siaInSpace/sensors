@@ -18,9 +18,13 @@ public class Tester {
     private void test(){
         this.standardSetup();
         String[] dataLabels = {"AccelXH", "AccelXL", "AccelYH", "AccelYL", "AccelZH", "AccelZL", "TempH", "TempL", "GyroXH", "GyroXL", "GyroYH", "GyroYL", "GyroZH", "GyroZL"};
+        String[] dataLabesHalf = {"AccelX", "AccelY", "AccelZ", "Temp", "GyroX", "GyroY", "GyroZ"};
         byte[] data = mpu.readSensors();
         for (int i = 0; i < data.length; i++) {
             System.out.println(dataLabels[i] + ": " + data[i]);
+        }
+        for (int i = 0; i < dataLabesHalf.length; i++) {
+            System.out.println(dataLabesHalf[i] + ((data[i]<<8 |0xF) & data[i+1]));
         }
     }
     public static void main(String[] args){
