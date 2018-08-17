@@ -6,8 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="">
+    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="testing temp">
       <change beforePath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" afterDir="false" />
     </list>
     <manually-removed-from-ignored>
@@ -25,8 +27,8 @@
       <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+            <state relative-caret-position="183">
+              <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -235,7 +237,7 @@
       <workItem from="1534262354982" duration="1403000" />
       <workItem from="1534265921083" duration="696000" />
       <workItem from="1534539326289" duration="2499000" />
-      <workItem from="1534541852957" duration="2949000" />
+      <workItem from="1534541852957" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="out files">
       <created>1534543857447</created>
@@ -251,11 +253,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534544398485</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added new printout which combines bytes into int">
+      <created>1534544843551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534544843551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cleaner printout">
+      <created>1534544892330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534544892330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7547000" />
+    <option name="totallyTimeSpent" value="8650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -270,14 +286,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32896653" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40756914" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682731" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20682731" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5010846" side_tool="true" visible="true" weight="0.20682731" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -330,7 +346,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="out files" />
     <MESSAGE value="added run file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added run file" />
+    <MESSAGE value="added new printout which combines bytes into int" />
+    <MESSAGE value="cleaner printout" />
+    <MESSAGE value="testing temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing temp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
@@ -543,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        <state relative-caret-position="183">
+          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
         </state>
       </provider>
     </entry>
