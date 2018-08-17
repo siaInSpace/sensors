@@ -7,11 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="put mpu9250 temp module in separate class">
-      <change afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Temp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/CombineBytes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope$FChoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope$FChoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope$SCALE.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope$SCALE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Gyroscope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Temp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Temp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" afterDir="false" />
     </list>
     <manually-removed-from-ignored>
@@ -26,20 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-239">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="239">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MPU9250Temp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MPU9250Temp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="e#87#88#0" expanded="true" />
                 <element signature="e#110#111#0" expanded="true" />
@@ -50,16 +56,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MPU9250.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250.java">
+      <file leaf-file-name="CombineBytes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/CombineBytes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,13 +72,15 @@
       <file leaf-file-name="MPU9250Gyroscope.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="545">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +89,8 @@
       <file leaf-file-name="MPU9250Aceelerometer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="131">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
@@ -105,6 +111,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Sensors" />
   </component>
   <component name="IdeDocumentHistory">
@@ -116,12 +127,13 @@
         <option value="$PROJECT_DIR$/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" />
         <option value="$PROJECT_DIR$/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" />
         <option value="$PROJECT_DIR$/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java" />
-        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java" />
-        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" />
         <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250.java" />
         <option value="$PROJECT_DIR$/../Sensors/run.sh" />
-        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" />
+        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/CombineBytes.java" />
         <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" />
+        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java" />
+        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java" />
+        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" />
       </list>
     </option>
   </component>
@@ -184,6 +196,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +274,7 @@
       <workItem from="1534262354982" duration="1403000" />
       <workItem from="1534265921083" duration="696000" />
       <workItem from="1534539326289" duration="2499000" />
-      <workItem from="1534541852957" duration="4513000" />
+      <workItem from="1534541852957" duration="6085000" />
     </task>
     <task id="LOCAL-00001" summary="out files">
       <created>1534543857447</created>
@@ -298,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534547862915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="put mpu9250 temp module in separate class">
+      <created>1534548330268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534548330268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9111000" />
+    <option name="totallyTimeSpent" value="10683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -310,7 +330,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.17321688" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -323,7 +343,9 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20682731" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32896653" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.20682731" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -335,7 +357,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -426,6 +447,8 @@
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,6 +505,8 @@
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -532,6 +557,8 @@
             <element signature="e#128#129#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,32 +569,6 @@
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,23 +593,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
+    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/CombineBytes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#110#111#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Gyroscope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Aceelerometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

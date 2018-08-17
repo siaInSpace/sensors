@@ -32,7 +32,7 @@ public class MPU9250Aceelerometer extends Sensor{
     }
 
     enum SCALE{
-        TWO(0b00), FOUR(0b01), EIGTH(0b10), SIXTEEN(0b11);
+        TWO(0b00), FOUR(0b01), EIGHT(0b10), SIXTEEN(0b11);
 
         private int fullScale;
         SCALE(int newFullScale){

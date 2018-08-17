@@ -25,10 +25,10 @@ public class Tester {
         /*for (int i = 0; i < data.length; i++) {
             System.out.println(dataLabels[i] + ": " + data[i]);
         }*/
-        String[] dataLabesHalf = {"AccelX", "AccelY", "AccelZ", "Temp", "GyroX", "GyroY", "GyroZ"};
+        String[] dataLabelsHalf = {"AccelX", "AccelY", "AccelZ", "Temp", "GyroX", "GyroY", "GyroZ"};
         byte[] data = mpu.readSensors();
-        for (int i = 0; i < dataLabesHalf.length; i++) {
-            System.out.println(dataLabesHalf[i] + ": " + ((data[i] << 8 | 0xF) & data[i + 1]));
+        for (int i = 0; i < dataLabelsHalf.length; i++) {
+            System.out.println(dataLabelsHalf[i] + ": " + ((data[i] << 8 | 0xF) & data[i + 1]));
         }
     }
 
@@ -39,7 +39,13 @@ public class Tester {
         test.standardSetup();
         try {
             while (System.in.available() == 0){
-                System.out.println("Temp: " + test.temp.readTemp());
+                double temp = test.temp.readTemp();
+                double[] gyro = test.gyroscope.readGyro();
+                System.out.println("Temp: " + temp);
+                System.out.println("Gyro");
+                System.out.println("\tx: " + gyro[0]);
+                System.out.println("\ty: " + gyro[1]);
+                System.out.println("\tz: " + gyro[2]);
             }
         } catch (IOException e) {
             e.printStackTrace();

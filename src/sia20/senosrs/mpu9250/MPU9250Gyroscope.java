@@ -2,6 +2,7 @@ package sia20.senosrs.mpu9250;
 
 public class MPU9250Gyroscope extends Sensor{
 
+    private SCALE gScale;
     MPU9250Gyroscope(){
         super(0x68);
     }
@@ -11,6 +12,7 @@ public class MPU9250Gyroscope extends Sensor{
     }
 
     void configure(SCALE scale, FChoice fChoice, int dlpfcfg){
+        this.gScale = scale;
         byte config = 0x1B;
         config = (byte)(config & scale.getScale());
         config = (byte)(config & fChoice.getConfig());
@@ -22,16 +24,31 @@ public class MPU9250Gyroscope extends Sensor{
         return read(0x43, 6);
     }
 
+    double[] readGyro(){
+        byte[] data = readData();
+        double[] gyroData = new double[3];
+        for (int i = 0; i < gyroData.length; i++) {
+            gyroData[i] = CombineBytes.bytesToInt(data[i*2], data[i*2+1]);
+            gyroData[i] = gyroData[i]*this.gScale.getValue()/32768.0; //don't know where 32768.0 is from but will test with it.
+        }                                                             // 2^15 = 32768, maybe sensitivity = range/resolution(2^16-1)
+        return gyroData;
+    }
     enum SCALE{
-        Quarter(0b00011), HALF(0b01011), FULL(0b10011), DOUBLE(0b11011);
+        Quarter(0b00011, 250), HALF(0b01011, 500), FULL(0b10011, 1000), DOUBLE(0b11011, 2000);
 
         private int gyroFullScale;
-        SCALE(int fullScale){
+        private int value;
+        SCALE(int fullScale, int newValue){
             this.gyroFullScale = fullScale;
+            this.value = newValue;
         }
 
         int getScale(){
             return gyroFullScale;
+        }
+
+        int getValue() {
+            return value;
         }
     }
 

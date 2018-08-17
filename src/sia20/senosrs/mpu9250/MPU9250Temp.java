@@ -11,7 +11,7 @@ class MPU9250Temp extends Sensor {
 
     double readTemp(){
         byte[] rawTemp = readRawTemp();
-        double temp = ((rawTemp[0]<<8 | 0xF) & rawTemp[1]);
+        double temp = CombineBytes.bytesToInt(rawTemp[0], rawTemp[1]);
         temp = (temp/333.87) + 21;
         return temp;
     }
