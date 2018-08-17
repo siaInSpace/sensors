@@ -6,10 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sensors/.idea/vcs.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="" />
+    <manually-removed-from-ignored>
+      <directory path="$PROJECT_DIR$/out/" />
+    </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,12 +231,12 @@
       <workItem from="1534262354982" duration="1403000" />
       <workItem from="1534265921083" duration="696000" />
       <workItem from="1534539326289" duration="2499000" />
-      <workItem from="1534541852957" duration="1743000" />
+      <workItem from="1534541852957" duration="1983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6341000" />
+    <option name="totallyTimeSpent" value="6581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
