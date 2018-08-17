@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="Sensors:jar">
+    <output-path>$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Sensors.jar">
+        <element id="module-output" name="Sensors" />
+      </element>
+      <element id="library" level="project" name="com.pi4j:pi4j-core:1.1" />
+    </root>
+  </artifact>
+</component>
