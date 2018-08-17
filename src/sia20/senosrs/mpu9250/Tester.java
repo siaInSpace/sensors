@@ -32,6 +32,13 @@ public class Tester {
         }
     }
 
+    void sleep(int ms){
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     public static void main(String[] args){
         Tester test = new Tester();
         System.out.println("Hello space!");
@@ -46,6 +53,7 @@ public class Tester {
                 System.out.println("\tx: " + gyro[0]);
                 System.out.println("\ty: " + gyro[1]);
                 System.out.println("\tz: " + gyro[2]);
+                test.sleep(20);
             }
         } catch (IOException e) {
             e.printStackTrace();
