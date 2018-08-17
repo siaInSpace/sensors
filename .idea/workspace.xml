@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="testing temp">
+    <list default="true" id="c0bdbb6c-1711-485f-aca4-6d0fbfac15db" name="Default" comment="put mpu9250 temp module in separate class">
+      <change afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/MPU9250Temp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/artifacts/Sensors_jar/Sensors.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sensors/out/production/Sensors/sia20/senosrs/mpu9250/Tester.class" afterDir="false" />
@@ -24,11 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="-239">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MPU9250Temp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +121,7 @@
         <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250.java" />
         <option value="$PROJECT_DIR$/../Sensors/run.sh" />
         <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java" />
+        <option value="$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java" />
       </list>
     </option>
   </component>
@@ -139,6 +157,12 @@
               <item name="Sensors" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sensors" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sensors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sensors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mpu9250" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +261,7 @@
       <workItem from="1534262354982" duration="1403000" />
       <workItem from="1534265921083" duration="696000" />
       <workItem from="1534539326289" duration="2499000" />
-      <workItem from="1534541852957" duration="4052000" />
+      <workItem from="1534541852957" duration="4513000" />
     </task>
     <task id="LOCAL-00001" summary="out files">
       <created>1534543857447</created>
@@ -267,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534544892330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing temp">
+      <created>1534547862915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534547862915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8650000" />
+    <option name="totallyTimeSpent" value="9111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -279,21 +310,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32896653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32896653" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40756914" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20682731" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5010846" side_tool="true" visible="true" weight="0.20682731" />
+      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.20682731" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -349,7 +380,8 @@
     <MESSAGE value="added new printout which combines bytes into int" />
     <MESSAGE value="cleaner printout" />
     <MESSAGE value="testing temp" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing temp" />
+    <MESSAGE value="put mpu9250 temp module in separate class" />
+    <option name="LAST_COMMIT_MESSAGE" value="put mpu9250 temp module in separate class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
@@ -562,8 +594,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="-239">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/MPU9250Temp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

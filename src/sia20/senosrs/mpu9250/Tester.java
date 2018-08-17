@@ -5,15 +5,18 @@ import java.io.IOException;
 public class Tester {
 
     private MPU9250 mpu;
-    private MPU9250Aceelerometer aceelerometer;
+    private MPU9250Aceelerometer accelerometer;
     private MPU9250Gyroscope gyroscope;
+    private MPU9250Temp temp;
     private Tester(){
         this.mpu = new MPU9250();
-        this.aceelerometer = new MPU9250Aceelerometer();
+        this.accelerometer = new MPU9250Aceelerometer();
         this.gyroscope = new MPU9250Gyroscope();
+        this.temp = new MPU9250Temp();
     }
+
     private void standardSetup(){
-        aceelerometer.configure(MPU9250Aceelerometer.SCALE.SIXTEEN, MPU9250Aceelerometer.FChoice.ZERO, 0);
+        accelerometer.configure(MPU9250Aceelerometer.SCALE.SIXTEEN, MPU9250Aceelerometer.FChoice.ZERO, 0);
         gyroscope.configure(MPU9250Gyroscope.SCALE.DOUBLE, MPU9250Gyroscope.FChoice.ONE, 0);
     }
 
@@ -29,12 +32,6 @@ public class Tester {
         }
     }
 
-    private void readTemp(){
-        int rawTemp = ((mpu.read(0x41)<<8 | 0xF) & mpu.read(0x42));
-        double temp = (rawTemp/333.87) + 21;
-        System.out.println("Temp: " + temp);
-    }
-
     public static void main(String[] args){
         Tester test = new Tester();
         System.out.println("Hello space!");
@@ -42,7 +39,7 @@ public class Tester {
         test.standardSetup();
         try {
             while (System.in.available() == 0){
-                test.readTemp();
+                System.out.println("Temp: " + test.temp.readTemp());
             }
         } catch (IOException e) {
             e.printStackTrace();
