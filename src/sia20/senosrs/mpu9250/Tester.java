@@ -17,7 +17,7 @@ public class Tester {
 
     private void standardSetup(){
         accelerometer.configure(MPU9250Aceelerometer.SCALE.SIXTEEN, MPU9250Aceelerometer.FChoice.ZERO, 0);
-        gyroscope.configure(MPU9250Gyroscope.SCALE.DOUBLE, MPU9250Gyroscope.FChoice.ONE, 0);
+        gyroscope.configure(MPU9250Gyroscope.SCALE.DOUBLE, MPU9250Gyroscope.FChoice.THREE, 4);
     }
 
     private void test(){
