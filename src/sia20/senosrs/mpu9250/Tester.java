@@ -46,7 +46,8 @@ public class Tester {
         test.standardSetup();
         try {
             while (System.in.available() == 0){
-                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                System.out.print("\033[H\033[2J");
+                System.out.flush();
                 double temp = test.temp.readTemp();
                 double[] gyro = test.gyroscope.readGyro();
                 System.out.println("Temp: " + temp);

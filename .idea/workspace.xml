@@ -24,8 +24,8 @@
       <file leaf-file-name="Tester.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+            <state relative-caret-position="179">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -263,7 +263,7 @@
       <workItem from="1534262354982" duration="1403000" />
       <workItem from="1534265921083" duration="696000" />
       <workItem from="1534539326289" duration="2499000" />
-      <workItem from="1534541852957" duration="6450000" />
+      <workItem from="1534541852957" duration="6745000" />
     </task>
     <task id="LOCAL-00001" summary="out files">
       <created>1534543857447</created>
@@ -321,15 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534550086485</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed printout?">
+      <created>1534550286499</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534550286499</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11048000" />
+    <option name="totallyTimeSpent" value="11343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,7 +413,8 @@
     <MESSAGE value="put mpu9250 temp module in separate class" />
     <MESSAGE value="added function to convert gyro values" />
     <MESSAGE value="added sleep between reads" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sleep between reads" />
+    <MESSAGE value="fixed printout?" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed printout?" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
@@ -652,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Sensors/src/sia20/senosrs/mpu9250/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+        <state relative-caret-position="179">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>
